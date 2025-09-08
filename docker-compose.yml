@@ -1,0 +1,24 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    restart: always
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+      - ./entrypoint.sh:/entrypoint.sh
+    entrypoint: ["/entrypoint.sh"]
+ 
+  app:
+    build: .
+    depends_on:
+      - ollama
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./uploaded:/app/uploaded
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+volumes:
+  ollama_data:
+ 
