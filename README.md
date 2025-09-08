@@ -1,6 +1,7 @@
 # RAG Chatbot with FAISS and LLaMA
  
 This project is a Streamlit-based chatbot that uses Retrieval-Augmented Generation (RAG) to answer questions about uploaded PDF documents. It leverages FAISS for efficient vector search, HuggingFace sentence transformers for embeddings, and LLaMA (via Ollama) as the language model.
+
  
 ## Features
  
