@@ -1,3 +1,4 @@
+#Requirement file
 #!/bin/bash
 set -e
 ollama serve &
