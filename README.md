@@ -13,7 +13,7 @@ This project is a Streamlit-based chatbot that uses Retrieval-Augmented Generati
 
 
 ## Architecture 
-<img width="1206" height="608" alt="image" src="https://github.com/user-attachments/assets/00ad2091-b077-43b1-ad69-8a5c0046ccfd" />
+<img width="1206" height="608" alt="image" src="https://github.com/shwetabstkr/Gen-AI/blob/main/RAG_Application_Flow_.jpeg" />
 
 
  
