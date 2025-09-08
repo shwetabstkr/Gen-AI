@@ -9,6 +9,7 @@ from langchain_community.llms import Ollama
 from langchain.chains.question_answering import load_qa_chain
 import time
 
+
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_path):
     try:
